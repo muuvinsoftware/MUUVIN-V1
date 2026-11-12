@@ -8,6 +8,21 @@
 
 ---
 
+## Download
+
+**[⬇ MUUVIN V1 — Installer + Manuals (.zip)](download/MUUVIN%20V1%20-%20Installer%20+%20Manuals.zip)**
+
+The zip contains the installer (`MUUVIN V1 Installer.exe`) and both manuals. To install: **close your DAW**, run the installer and follow the wizard (admin rights needed). MUUVIN V1 then shows up under **MUUVIN SOFTWARE** in your DAW.
+
+## Manuals
+
+The full manual is included in the plugin (**MENU › USER MANUAL**) and also as PDF:
+
+- 📖 [User Manual — English (PDF)](manuals/MUUVIN_V1_Manual_EN.pdf)
+- 📖 [Manual do Usuário — Português (PDF)](manuals/MUUVIN_V1_Manual_PT.pdf)
+
+---
+
 ## About MUUVIN SOFTWARE
 
 MUUVIN SOFTWARE is an independent audio software company. We make instruments for producers who care about how a sound *feels*, not only how it looks on screen.
@@ -93,7 +108,7 @@ Load only the effects you want, in any order: **DRIVE, FILTER, TAPE, CHORUS, FLA
 - Key and scale selection (14 scales), with **SNAP TO SCALE** to keep every note in key.
 
 ### Preset browser
-Opens on the side (☰) with imported banks, the MUUVIN Factory bank (128 presets), favourites, search and tag filters (BASS, LEAD, PAD, PLUCK, KEYS, 80s, WARM, VINTAGE, CINEMA and more).
+Opens on the side (☰) with imported banks, the permanent MUUVIN Analog Dreams factory bank (400 presets sorted by category: arps, brass, basses, leads, noise/FX, pads, sequences and synths), favourites, search and tag filters (BASS, LEAD, PAD, PLUCK, KEYS, 80s, WARM, VINTAGE, CINEMA and more).
 
 ## Specifications
 
@@ -113,14 +128,14 @@ Opens on the side (☰) with imported banks, the MUUVIN Factory bank (128 preset
 | **Analog character** | DRIFT, TOLERANCE and HEAT |
 | **Effects** | 12 reorderable + REVERSE |
 | **Performance** | 16-step sequencer · arpeggiator · 15 chords · 14 scales · snap to scale |
-| **Presets** | Reads banks and presets from the legendary Synth1 by Daichi (`.sy1`: file, folder or `.zip`) · factory bank MUUVIN Factory (128) |
+| **Presets** | Reads banks and presets from the legendary Synth1 by Daichi (`.sy1`: file, folder or `.zip`) · factory bank MUUVIN Analog Dreams (400) |
 | **Interface** | 5 pages · 75% to 110% size · 5 themes · Português and English · built-in manual |
 
 ## Getting started
 
 1. **Install:** copy the `MUUVIN V1.vst3` folder to `C:\Program Files\Common Files\VST3` and reopen your DAW. MUUVIN V1 shows up as an instrument by MUUVIN SOFTWARE. Close the DAW before updating the plugin.
 2. **Play:** create an instrument track with MUUVIN V1. The *initial sound* preset is a clean starting point.
-3. **Browse:** click ☰ to open the browser. The MUUVIN Factory bank comes preinstalled.
+3. **Browse:** click ☰ to open the browser. The MUUVIN Analog Dreams bank (400 presets) comes preinstalled.
 4. **Import your Synth1 banks:** MENU › Import bank (folder or `.zip`).
 5. **Save:** click the save icon in the top bar. Your DAW project also stores everything, including samples and slices.
 
