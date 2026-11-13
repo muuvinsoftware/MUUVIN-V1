@@ -81,6 +81,27 @@ The factory bank, **MUUVIN Analog Dreams** (400 presets), is permanent and sorte
 
 ---
 
+## ✦ Search presets by *vibe* — **new in 1.2**
+
+Stop scrolling through hundreds of names. **Describe the sound you want in plain words** and MUUVIN V1 finds the closest presets for you.
+
+<div align="center">
+
+![Search presets by vibe](images/gh_sem_search.png)
+
+</div>
+
+Type something like **`warm analog bass`**, **`bright pad with movement`** or **`short plucky lead`** into the browser search field. MUUVIN V1 reads what each preset actually *does* — brightness, attack, harmonics, movement, low end, density — and ranks the library by how well it matches, showing a **relevance score** and **vibe tags** (GRAVE, QUENTE, ANALÓG, PAD, MOV, LARGO…) on each result.
+
+- **No internet, no AI, no waiting.** It all runs locally inside the plugin — instant and private. Works fully offline.
+- **It understands English and Portuguese** vibe words out of the box.
+- **It respects your tabs and filters.** Search inside *Banks* or *Favourites*, combine it with the `#` tag filters — it just reorders what is already there by feel.
+- Type ordinary preset names and it still works as a normal name search.
+
+One field, two ways to search: by name *and* by the sound you are after.
+
+---
+
 ## Screenshots
 
 | Oscillators | Effects rack |
