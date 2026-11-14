@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.3-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.4-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_64--bit-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -176,7 +176,7 @@ The performance bar is always at the bottom:
 - **Key & scale** (14 scales) with **SNAP TO SCALE** to keep every note you play in key.
 
 ### FX — fourteen studio effects + REVERSE
-Load only the effects you want, in any order: **DRIVE, FILTER, TAPE, CHORUS, FLANGER, ECHO, DELAY, REVERB, GATE, multiband COMPRESSOR, LIMITER, SATURATION, TREMOLO and SIDECHAIN**, plus **REVERSE** at the end of the chain.
+Load only the effects you want, in any order: **DRIVE, FILTER, TAPE, CHORUS, FLANGER, ECHO, DELAY, REVERB, GATE, multiband COMPRESSOR, LIMITER, SATURATION, TREMOLO and SIDECHAIN**, plus **REVERSE** at the end of the chain. Every module's display carries a live **LED VU bar** that lights up with the timbre you play and the effect's own action.
 
 ### MIX and the ANALOG section
 The MIX page shows every layer and the output — level, waveform and spectrum. The **ANALOG** section adds the warm, living character of a real analog synth: **DRIFT** (slow oscillator drift), **TOLERANCE** (per-voice tuning/filter variation) and **HEAT** (saturation before the filter). At **OFF**, a preset sounds exactly like the original.
