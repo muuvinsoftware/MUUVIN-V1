@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.0-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.3-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_64--bit-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -156,7 +156,7 @@ MUUVIN V1 has five pages — **OSC, MIX, FX, MATRIX and GLOBAL**. The top bar is
 - **NOISE** adds coloured noise, and **FILTER** offers Low-pass 12/24, High-pass 12, Band-pass 12 and Low-pass 24 Ladder, with a second filter in serial or parallel.
 
 ### Modulation you can see
-All modulation is visual: **just drag a source onto a knob.** There are 4 envelopes, 8 LFOs (with tempo sync and key sync), velocity and the mod wheel. A coloured ring around a knob shows how much it is being modulated. Right-click a knob to set the amount and curve (LIN, EXP or LOG), bypass a link or remove it.
+All modulation is visual: **just drag a source onto a knob.** Sources are 4 envelopes, 8 LFOs (with tempo sync and key sync), velocity, the mod wheel — and **any knob can modulate any other knob**, like a macro, for endless routings. The matrix now holds **32 connections in two banks (A 1–16, B 17–32)**. Each knob shows **up to 5 coloured rings** (one per source) with a live dot, and a badge with the number of connections. Right-click a knob to set the amount and curve (LIN, EXP or LOG), bypass a link or remove it.
 
 ### 8 macros, one drag away
 
@@ -175,8 +175,8 @@ The performance bar is always at the bottom:
 - **CHORD** — one-finger chords: pick a chord (15 available) and play a single note to hear the whole voicing.
 - **Key & scale** (14 scales) with **SNAP TO SCALE** to keep every note you play in key.
 
-### FX — twelve studio effects + REVERSE
-Load only the effects you want, in any order: **DRIVE, FILTER, TAPE, CHORUS, FLANGER, ECHO, DELAY, REVERB, GATE, multiband COMPRESSOR, LIMITER and SATURATION**, plus **REVERSE** at the end of the chain.
+### FX — fourteen studio effects + REVERSE
+Load only the effects you want, in any order: **DRIVE, FILTER, TAPE, CHORUS, FLANGER, ECHO, DELAY, REVERB, GATE, multiband COMPRESSOR, LIMITER, SATURATION, TREMOLO and SIDECHAIN**, plus **REVERSE** at the end of the chain.
 
 ### MIX and the ANALOG section
 The MIX page shows every layer and the output — level, waveform and spectrum. The **ANALOG** section adds the warm, living character of a real analog synth: **DRIFT** (slow oscillator drift), **TOLERANCE** (per-voice tuning/filter variation) and **HEAT** (saturation before the filter). At **OFF**, a preset sounds exactly like the original.
@@ -212,9 +212,9 @@ The interface also scales from **75% to 110%**, with a 1:1 button to return to t
 | **Filters** | 2 filters (serial or parallel): LP12, LP24, HP12, BP12 and LP24 Ladder |
 | **Envelopes** | 4 (amp, filter, modulation and free) |
 | **LFOs** | 8 · Saw, Triangle, Square, S&H, Random and Sine · tempo sync · key sync |
-| **Modulation** | Drag and drop · 16-slot matrix with curve and bypass · 8 macros × 4 targets |
+| **Modulation** | Drag and drop · 32-slot matrix (banks A/B) with curve and bypass · any knob as a source · 8 macros × 4 targets |
 | **Analog character** | DRIFT, TOLERANCE and HEAT |
-| **Effects** | 12 reorderable + REVERSE |
+| **Effects** | 14 reorderable + REVERSE (incl. Tremolo and Sidechain) |
 | **Performance** | 16-step sequencer · arpeggiator · 15 chords · 14 scales · snap to scale |
 | **Presets** | Reads Synth1 `.sy1` banks and presets (file, folder or `.zip`) · factory bank MUUVIN Analog Dreams (400) |
 | **Interface** | 5 pages · 75%–110% size · 5 themes · English & Português · built-in manual |
