@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.4-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.5-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_64--bit-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -30,6 +30,40 @@
 ![MUUVIN V1 — Glass theme](images/gh_glass.png)
 
 </div>
+
+---
+
+## ✨ New in this version
+
+**Everything is modulatable now — and the browser suggests what to play next.**
+
+### 🔗 Every knob is a mod source, every knob is a target
+
+Each knob has a small **handle** at its bottom-right corner. Drag the handle of any source — an envelope, an LFO, velocity, the mod wheel, a macro, or **any other knob** — and drop it on the knob you want to move. **No Alt key needed**, and a normal drag still changes the value. Once linked, **drag the coloured ring** on the knob to set the depth. Each kind of source has its **own colour** (LFO amber, ENV gold, velocity pink, mod wheel lilac, macro green, another knob orange), so a modulation ring never blends in with the module behind it.
+
+<div align="center">
+
+![Modular knobs with coloured rings and connection handles](images/gh_osc.png)
+
+</div>
+
+### ✦ Similar presets, right as you load
+
+Every time you pick a preset, the browser shows a **✦ SIMILAR** panel at the top with the closest-sounding presets from your whole library — matched by how they actually sound, not by name. One click auditions the next idea, and the list follows along. Collapse it any time with the arrow.
+
+<div align="center">
+
+![The SIMILAR panel suggesting related presets](images/gh_similar.png)
+
+</div>
+
+### 🔎 A smarter preset search
+
+Search now understands categories, so typing **bass** also finds presets tagged **BS**, **lead** finds **LD**, **pad** finds **PD**, and so on — you no longer have to guess how a bank abbreviated things.
+
+### 🎚️ Cleaner presets
+
+A pass over the factory bank removed the clicks and pops some presets made at note starts and ends, fixing the envelope timing at the root — **without touching anyone's volume or sound**.
 
 ---
 
@@ -156,7 +190,7 @@ MUUVIN V1 has five pages — **OSC, MIX, FX, MATRIX and GLOBAL**. The top bar is
 - **NOISE** adds coloured noise, and **FILTER** offers Low-pass 12/24, High-pass 12, Band-pass 12 and Low-pass 24 Ladder, with a second filter in serial or parallel.
 
 ### Modulation you can see
-All modulation is visual: **just drag a source onto a knob.** Sources are 4 envelopes, 8 LFOs (with tempo sync and key sync), velocity, the mod wheel — and **any knob can modulate any other knob**, like a macro, for endless routings. The matrix now holds **32 connections in two banks (A 1–16, B 17–32)**. Each knob shows **up to 5 coloured rings** (one per source) with a live dot, and a badge with the number of connections. Right-click a knob to set the amount and curve (LIN, EXP or LOG), bypass a link or remove it.
+All modulation is visual and **every knob is modulatable, with no exception.** Every knob has a small **handle** at its bottom-right corner: drag it from any source — or from **any other knob** — and drop it on the knob you want to move. **No Alt needed**, and a normal drag still changes the value. Sources are 4 envelopes, 8 LFOs (with tempo sync and key sync), velocity and the mod wheel, plus any knob acting as a source — like a macro, for endless routings. The matrix now holds **32 connections in two banks (A 1–16, B 17–32)**. Each knob shows **up to 5 coloured rings** (one per source) with a live dot, and a badge with the number of connections — each kind of source has its own colour (LFO amber, ENV gold, velocity pink, mod wheel lilac, macro green, another knob orange), so a ring never blends in with the module. **Drag a ring** up or down to set its depth right on the knob; right-click a knob to set the amount and curve (LIN, EXP or LOG), bypass a link or remove it.
 
 ### 8 macros, one drag away
 
