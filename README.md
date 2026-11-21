@@ -39,11 +39,23 @@
 
 ### 🎹 PERFORM mode — your 8 macros, full screen
 
-A new **MODO PERFORM** (MENU › MODO PERFORM) fills the window with **eight large macro knobs** — BRIGHT · DRIVE · MOTION · SPACE · WIDTH · TAPE · ATTACK · RELEASE — sized for the stage. Tweak your sound live without hunting for small controls; press **Esc** or **FECHAR** to return.
+A new **PERFORM MODE** (MENU › PERFORM MODE) fills the window with **eight large macro knobs** — BRIGHT · DRIVE · MOTION · SPACE · WIDTH · TAPE · ATTACK · RELEASE — sized for the stage. Tweak your sound live without hunting for small controls; press **Esc** or **CLOSE** to return.
+
+<div align="center">
+
+![PERFORM mode — the 8 macros full screen](images/gh_perform.png)
+
+</div>
 
 ### 🎼 CHORD CUSTOM — build your own chord
 
 Beyond the 15 ready-made chords, there is now a **16th: CUSTOM.** Set how many notes it plays and the exact **interval of each note** (in semitones), and one key triggers your own voicing. The custom chord is **saved inside the preset**, so it travels with your sound.
+
+<div align="center">
+
+<img src="images/gh_chord_custom.png" width="300" alt="CHORD CUSTOM with editable intervals" />
+
+</div>
 
 ### 🎵 Microtuning — load any Scala (.scl) scale
 
@@ -283,10 +295,10 @@ Make MUUVIN V1 look the way you want — **Glass** is the default.
 | Glass *(default)* | Graphite | Slate |
 |:---:|:---:|:---:|
 | ![Glass](images/gh_th_glass.png) | ![Graphite](images/gh_th_graphite.png) | ![Slate](images/gh_th_chumbo.png) |
-| **Light** | **Neon** | |
-| ![Light](images/gh_th_light.png) | ![Neon](images/gh_th_neon.png) | |
+| **Light** | **Neon** | **Preto Fosco** *(new)* |
+| ![Light](images/gh_th_light.png) | ![Neon](images/gh_th_neon.png) | ![Preto Fosco](images/gh_th_fosco.png) |
 
-**New — Preto Fosco (Matte Black):** a sixth theme — a deep, glare-free matte-black finish with warm bronze accents, made for dark studios.
+**New — Preto Fosco (Matte Black):** a deep, glare-free matte-black finish with warm bronze accents, made for dark studios.
 
 The interface also scales from **75% to 110%**, with a 1:1 button to return to the original size.
 
