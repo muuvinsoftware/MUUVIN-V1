@@ -6,9 +6,9 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.5-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Windows_64--bit-1f6feb?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
 
 **[⬇ Download](../../releases/latest)** · **[📖 Manual (EN)](manuals/MUUVIN_V1_Manual_EN.pdf)** · **[📖 Manual (PT)](manuals/MUUVIN_V1_Manual_PT.pdf)** · **[🐞 Report / Request](../../issues)**
@@ -30,6 +30,36 @@
 ![MUUVIN V1 — Glass theme](images/gh_glass.png)
 
 </div>
+
+---
+
+## 🆕 New in 1.6
+
+**Play live, tune your own way, and build the exact chord you hear.**
+
+### 🎹 PERFORM mode — your 8 macros, full screen
+
+A new **MODO PERFORM** (MENU › MODO PERFORM) fills the window with **eight large macro knobs** — BRIGHT · DRIVE · MOTION · SPACE · WIDTH · TAPE · ATTACK · RELEASE — sized for the stage. Tweak your sound live without hunting for small controls; press **Esc** or **FECHAR** to return.
+
+### 🎼 CHORD CUSTOM — build your own chord
+
+Beyond the 15 ready-made chords, there is now a **16th: CUSTOM.** Set how many notes it plays and the exact **interval of each note** (in semitones), and one key triggers your own voicing. The custom chord is **saved inside the preset**, so it travels with your sound.
+
+### 🎵 Microtuning — load any Scala (.scl) scale
+
+MUUVIN V1 now plays in **any tuning.** Load a **Scala `.scl`** file (MENU) to retune every note — just intonation, historical temperaments, microtonal scales — or reset to 12-TET in one click. Your scale is **saved with the preset**.
+
+### 🅰️🅱️ A/B compare · Randomize · Humanize
+
+The **MENU › SOM** section lets you **A/B** two versions of a sound and **COPIAR** one slot to the other, so you can compare changes instantly. **SORTEAR** rolls a fresh sound, and **HUMANIZAR** adds subtle analog-style variation — all **without ever touching the master volume**.
+
+### 🖥️ Voice & CPU meter
+
+The voices panel now shows a live **CPU** readout with a colour dot (green → amber → red), so you can see at a glance how heavy a patch is as you play.
+
+### 🎨 New theme — Preto Fosco (Matte Black)
+
+A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
 
 ---
 
@@ -65,6 +95,24 @@ Search now understands categories, so typing **bass** also finds presets tagged 
 
 A pass over the factory bank removed the clicks and pops some presets made at note starts and ends, fixing the envelope timing at the root — **without touching anyone's volume or sound**.
 
+### 🎛️ MIDI Learn on every knob
+
+**Right-click any knob › MIDI Learn**, then move a knob or fader on your controller — that control now drives the parameter. Remove it the same way, and the whole map is **saved with your project**. The same right-click menu also gives you the **exact value**, **reset to default**, **copy/paste value** and **assign to a macro**, on every knob.
+
+### 🔊 Audio quality: Eco ↔ Quality
+
+A new **AUDIO QUALITY** switch on the GLOBAL page. **Eco** (the default) stays light on CPU; **Quality** turns on **2× oversampling** on the distortion, lowering the aliasing when you drive the sound hard. Your choice is remembered per project and globally.
+
+<div align="center">
+
+![The GLOBAL page: MIDI Learn, MIDI controls and the new AUDIO QUALITY switch](images/gh_global.png)
+
+</div>
+
+### 🖥️ Now on Windows, macOS and Linux
+
+MUUVIN V1 is built from **one codebase** for all three systems (64-bit), with a **universal macOS** build (Intel + Apple Silicon). Same interface, same sound, same presets everywhere — see **[Windows, macOS and Linux](#windows-macos-and-linux)** below.
+
 ---
 
 ## Download & install
@@ -80,6 +128,16 @@ Download **MUUVIN V1 - Installer + Manuals.zip** from the latest release. It con
 **Prefer a manual install?** The release also includes **MUUVIN V1 (VST3 plugin only).zip** — unzip the `MUUVIN V1.vst3` folder into `C:\Program Files\Common Files\VST3\MUUVIN SOFTWARE\` yourself.
 
 The full manual (English and Portuguese) is also built into the plugin: **MENU › USER MANUAL**.
+
+### Windows, macOS and Linux
+
+MUUVIN V1 is built from **one codebase** that compiles natively for **Windows, macOS and Linux** — all 64-bit. The interface, the sound engine and the presets are the **same on every system**: the UI is drawn in software with its own built-in fonts, so it looks and resizes identically everywhere, and the factory presets are embedded in the plugin itself.
+
+- **Windows (64-bit)** — available now, above.
+- **macOS** — **universal** build (Intel + Apple Silicon), covering every 64-bit Mac.
+- **Linux (64-bit)** — VST3 for Linux hosts.
+
+> **The macOS and Linux builds are in final validation** and will be posted here as downloads shortly. Every build is checked automatically on its own system before release. *(The macOS build is unsigned for now, so on first load you may need to allow it under System Settings → Privacy & Security.)*
 
 ---
 
@@ -206,8 +264,9 @@ The performance bar is always at the bottom:
 
 - **SEQ** — a 16-step sequencer; click the bars to edit, and set the division and gate.
 - **ARP** — an arpeggiator with modes (UP·DN and more), octave range and swing.
-- **CHORD** — one-finger chords: pick a chord (15 available) and play a single note to hear the whole voicing.
-- **Key & scale** (14 scales) with **SNAP TO SCALE** to keep every note you play in key.
+- **CHORD** — one-finger chords: pick a chord (**16 available, including CUSTOM**) and play a single note to hear the whole voicing. With **CUSTOM**, set the number of notes and each interval yourself — saved in the preset.
+- **Key & scale** (14 scales) with **SNAP TO SCALE** to keep every note you play in key, plus **Scala (.scl) microtuning** to retune the whole instrument.
+- **MODO PERFORM** — open the eight macros full screen (MENU › MODO PERFORM) to play them live.
 
 ### FX — fourteen studio effects + REVERSE
 Load only the effects you want, in any order: **DRIVE, FILTER, TAPE, CHORUS, FLANGER, ECHO, DELAY, REVERB, GATE, multiband COMPRESSOR, LIMITER, SATURATION, TREMOLO and SIDECHAIN**, plus **REVERSE** at the end of the chain. Every module's display carries a live **LED VU bar** that lights up with the timbre you play and the effect's own action.
@@ -217,7 +276,7 @@ The MIX page shows every layer and the output — level, waveform and spectrum. 
 
 ---
 
-## Five themes
+<h2 id="six-themes">Six themes</h2>
 
 Make MUUVIN V1 look the way you want — **Glass** is the default.
 
@@ -227,6 +286,8 @@ Make MUUVIN V1 look the way you want — **Glass** is the default.
 | **Light** | **Neon** | |
 | ![Light](images/gh_th_light.png) | ![Neon](images/gh_th_neon.png) | |
 
+**New — Preto Fosco (Matte Black):** a sixth theme — a deep, glare-free matte-black finish with warm bronze accents, made for dark studios.
+
 The interface also scales from **75% to 110%**, with a 1:1 button to return to the original size.
 
 ---
@@ -235,7 +296,7 @@ The interface also scales from **75% to 110%**, with a 1:1 button to return to t
 
 | | |
 |---|---|
-| **Format** | VST3, Windows 64-bit |
+| **Format** | VST3 · Windows, macOS (universal Intel + Apple Silicon) and Linux · 64-bit |
 | **Developer** | MUUVIN SOFTWARE (Brazil) |
 | **Status** | Public beta (in testing — not the final version) |
 | **Polyphony** | Up to 16 voices · Poly, Mono, Legato · Unison |
@@ -249,15 +310,17 @@ The interface also scales from **75% to 110%**, with a 1:1 button to return to t
 | **Modulation** | Drag and drop · 32-slot matrix (banks A/B) with curve and bypass · any knob as a source · 8 macros × 4 targets |
 | **Analog character** | DRIFT, TOLERANCE and HEAT |
 | **Effects** | 14 reorderable + REVERSE (incl. Tremolo and Sidechain) |
-| **Performance** | 16-step sequencer · arpeggiator · 15 chords · 14 scales · snap to scale |
+| **Performance** | 16-step sequencer · arpeggiator · 16 chords (incl. CUSTOM) · 14 scales · snap to scale · PERFORM mode |
+| **Tuning** | 12-TET and **Scala (.scl) microtuning** · saved per preset |
+| **Workflow** | A/B compare · Randomize · Humanize · live voice & CPU meter |
 | **Presets** | Reads Synth1 `.sy1` banks and presets (file, folder or `.zip`) · factory bank MUUVIN Analog Dreams (400) |
-| **Interface** | 5 pages · 75%–110% size · 5 themes · English & Português · built-in manual |
+| **Interface** | 5 pages · 75%–110% size · **6 themes** · English & Português · built-in manual |
 
 <h2 id="contact-us">Contact us — bugs, feature requests & feedback</h2>
 
 MUUVIN V1 is **still in testing**, and **your opinion is essential.** Get in touch by opening an **[issue](../../issues)**.
 
-**🐞 Found a bug?** Tell us what happened and what you expected, your DAW and Windows version, the preset or `.sy1` file involved, and a screenshot or short recording if you can.
+**🐞 Found a bug?** Tell us what happened and what you expected, your DAW and operating system (Windows, macOS or Linux), the preset or `.sy1` file involved, and a screenshot or short recording if you can.
 
 **💡 Have an idea for a feature?** A new effect, a modulation option, a workflow shortcut — we'd love to hear it.
 
