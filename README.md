@@ -178,8 +178,10 @@ MUUVIN V1 reads banks and presets made for the legendary **Synth1 by Daichi**, i
 - Use **MENU › Import bank** (folder or `.zip`), or the 📁 icon in the browser to import several `.zip` files at once.
 - Each bank becomes a folder in the preset browser.
 - Presets play with their original sound, and each preset's own effects still play as they were made.
-- The **ANALOG** controls can add warmth on top. At **OFF**, the preset sounds exactly like the original.
+- The **ANALOG** controls can add warmth on top. At **OFF** there's no added coloration — the preset stays faithful to the original Synth1 sound.
 - You can also export the current preset as `.sy1`.
+
+> **How faithful is it?** Presets load **note for note** — the same **99 parameters** as Synth1 — and MUUVIN V1's engine was rebuilt by *measuring* Synth1 (oscillators, filters, envelopes and effects). The result is a faithful model of the original tone, not a sample-for-sample copy.
 
 The factory bank, **MUUVIN Analog Dreams** (400 presets), is permanent and sorted by category: arps, brass, basses, leads, noise/FX, pads, sequences and synths.
 
