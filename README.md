@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.6-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6.5-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -72,6 +72,16 @@ The voices panel now shows a live **CPU** readout with a colour dot (green → a
 ### 🎨 New theme — Preto Fosco (Matte Black)
 
 A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
+
+---
+
+## ✨ New in 1.6.5 — a 3D visual refresh
+
+**The whole interface got real depth, without losing its identity.** Knobs now have a domed, lit face with a concave centre; fields, toggles, buttons and module frames carry a soft top gloss and a bevel (light on top, shadow at the bottom); and the BEND/MOD wheels curve like physical thumbwheels. The **oscillators (A, B, C and SUB)** are drawn as 3D wavetable stacks, and the **adjustment ruler** inside the waveform displays is always visible and sweeps top-to-bottom as you shape the sound.
+
+Under the hood, the app now ships with the **Barlow** font embedded (SIL OFL) — identical text on every computer, with no proprietary-font dependency — and the preset browser shows **clean names** without leading numbering (e.g. `10211_` or `1.07 `). No presets are removed.
+
+> This release ships for **Windows** first; macOS and Linux follow.
 
 ---
 
