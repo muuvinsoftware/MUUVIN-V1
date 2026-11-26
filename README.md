@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.6.11-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6.12-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -72,6 +72,13 @@ The voices panel now shows a live **CPU** readout with a colour dot (green → a
 ### 🎨 New theme — Preto Fosco (Matte Black)
 
 A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
+
+---
+
+## ✨ New in 1.6.12 — louder, even presets & a scrollable FX list
+
+- **All factory presets now play at the same volume — and +3 dB louder.** Every preset in the *MUUVIN Analog Dreams* bank was measured and loudness-matched to a single target (−11 dBFS), with a −2 dBFS peak ceiling so nothing clips. The presets that used to be too quiet are brought up, so switching patches no longer means jumping on the volume knob.
+- **Scrollable EFFECTS · A–Z list.** With the FX rack now at 23 effects, the alphabetical list on the FX page scrolls (mouse wheel or the slim bar on the right), so the last effects are no longer cut off. The SAT / PAN / FX MIX / OUTPUT / ORDER / SYNC / BYPASS controls stay pinned at the bottom of the column.
 
 ---
 
