@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.6.5-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6.11-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -72,6 +72,28 @@ The voices panel now shows a live **CPU** readout with a colour dot (green → a
 ### 🎨 New theme — Preto Fosco (Matte Black)
 
 A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
+
+---
+
+## ✨ New in 1.6.11 — a full FX rack
+
+**The FX page grew from 14 to 23 effects.** Nine new processors join the chain, each reorderable, with its own type selector, three starting presets and a live visualiser:
+
+- **Phaser** — 2 to 12 all-pass stages swept by an LFO, with feedback (resonance), stereo spread and centre.
+- **3-band EQ** — low shelf, mid bell (freq + Q) and high shelf (±12 dB), with a CLEAN/WARM voicing.
+- **Bitcrusher / Decimator** — bit depth (1–16) plus sample-rate reduction with jitter, input drive and a tone filter; DIGITAL or LO-FI.
+- **Ring Mod / AM** — sine/triangle/square carrier, RING and AM modes, frequency, fine, stereo spread.
+- **Stereo Widener** — mid-side (mono bass + side air, up to 2× width) or Haas, with output trim.
+- **Auto-Wah** — envelope-following filter, lowpass or bandpass, with sensitivity, range and speed.
+- **Formant** — three resonant vowel formants that morph between pairs (A-E / E-I / O-U / I-A), with a gender shift.
+- **Pitch Shifter / Harmonizer** — ±24 semitones + fine, with feedback, stereo detune and SHIFT or HARMONY.
+- **Vocoder** — an 8/12/16-band analysis of your signal driving an internal carrier (saw or noise), with tone, resonance and formant shift.
+
+**Wavetables straight from the oscillators.** OSC A and OSC B now have a **☰ menu** in their header to import external wavetables (WAV/MP3) or pick one from a list — it loads into the matching wavetable layer.
+
+**No more freezing when you delete a bank.** Deleting a bank or folder now runs in the background, so the interface stays fluid even with large libraries.
+
+Validated with **pluginval at strictness 10** (no failures). Ships for **Windows** (VST3, 64-bit).
 
 ---
 
