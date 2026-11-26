@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.6.12-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6.13-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -72,6 +72,13 @@ The voices panel now shows a live **CPU** readout with a colour dot (green → a
 ### 🎨 New theme — Preto Fosco (Matte Black)
 
 A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
+
+---
+
+## ✨ New in 1.6.13 — Auto Level: every preset at the same volume
+
+- **Auto Level (loudness match), built into the plugin.** The synth now measures its own output and gently brings quiet presets up — and loud ones down — to a **shared target loudness**, so browsing presets no longer means riding the volume knob. It adapts smoothly (no pumping), leaves silence and note gaps alone, and works on **every preset**: factory, your own, and any imported bank.
+- **One switch in the GLOBAL page.** Find **AUTO LEVEL** on the GLOBAL tab — it's **on by default**, and your choice is remembered. Turn it off any time to hear presets exactly as saved.
 
 ---
 
