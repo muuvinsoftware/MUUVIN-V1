@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.6.13-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6.14-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -72,6 +72,12 @@ The voices panel now shows a live **CPU** readout with a colour dot (green → a
 ### 🎨 New theme — Preto Fosco (Matte Black)
 
 A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
+
+---
+
+## ✨ New in 1.6.14 — solid dropdown menus on the Glass theme
+
+- **Pop-up menus are no longer see-through on the Glass theme.** On the translucent *Glass* skin, the floating menus (the FX type/rate selector, the OSC A/B wavetable menu, the OSC C wavetable menu and the sampler menu) were drawing with a near-transparent background, so the controls behind them showed through. They now use a solid, opaque panel and read clearly over whatever is underneath.
 
 ---
 
