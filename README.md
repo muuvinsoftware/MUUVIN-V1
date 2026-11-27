@@ -6,7 +6,7 @@
 
 ### A warm, analog-style synthesizer by MUUVIN SOFTWARE
 
-![Version](https://img.shields.io/badge/version-1.6.14-e53237?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.6.15-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
@@ -72,6 +72,13 @@ The voices panel now shows a live **CPU** readout with a colour dot (green → a
 ### 🎨 New theme — Preto Fosco (Matte Black)
 
 A sixth theme: a deep, glare-free **matte black** with warm bronze accents — easy on the eyes in a dark studio. See **[Six themes](#six-themes)** below.
+
+---
+
+## ✨ New in 1.6.15 — Unlock & DEMO mode
+
+- **Free DEMO mode with a one-click unlock.** MUUVIN V1 now runs as a free DEMO until you register. In DEMO you'll hear a short burst of noise every 60 seconds, the effects, buttons and preset list are limited (first 15 presets), and a red **DEMO VERSION** badge shows in the top bar.
+- **Register in seconds — MENU › UNLOCK.** Type a valid email (Gmail, Hotmail or Outlook) and the 16-character serial (`XXXX-XXXX-XXXX-XXXX`) is generated automatically and stored under your email. One registration per machine. The instant you register, the noise and every limit disappear.
 
 ---
 
