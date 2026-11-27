@@ -24,6 +24,8 @@
 > **This is exactly why we need you.** Every bug report, feature idea and comment directly shapes the final version — see **[Contact us](#contact-us)**.
 >
 > **We are committed to updating MUUVIN V1 as quickly as possible** — fixes and improvements ship as fast as we can, so the plugin keeps getting better with every release.
+>
+> ⭐ **If you like it, a star on this repo really helps** — and your feedback in the [issues](../../issues) shapes what comes next.
 
 <div align="center">
 
