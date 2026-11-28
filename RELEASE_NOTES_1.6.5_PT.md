@@ -16,4 +16,4 @@ Feche a sua DAW, rode **MUUVIN V1 Installer.exe** e reescaneie os plugins. Para 
 
 Manual completo em inglês e português vem embutido no plugin (MENU › USER MANUAL) e anexado aqui em PDF.
 
-> macOS e Linux: esta atualização saiu primeiro para Windows. Os builds para os outros sistemas vêm em seguida.
+> Disponível para Windows. As versões para macOS e Linux estão em desenvolvimento e sairão mais pra frente.
