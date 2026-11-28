@@ -8,7 +8,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.6.15-e53237?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-PUBLIC_BETA-ff8c00?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Windows_macOS_Linux_(64--bit)-1f6feb?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows_(64--bit)-1f6feb?style=for-the-badge)
 ![Format](https://img.shields.io/badge/format-VST3-8a2be2?style=for-the-badge)
 
 **[⬇ Download](../../releases/latest)** · **[📖 Manual (EN)](manuals/MUUVIN_V1_Manual_EN.pdf)** · **[📖 Manual (PT)](manuals/MUUVIN_V1_Manual_PT.pdf)** · **[🐞 Report / Request](../../issues)**
@@ -132,7 +132,7 @@ Validated with **pluginval at strictness 10** (no failures). Ships for **Windows
 
 Under the hood, the app now ships with the **Barlow** font embedded (SIL OFL) — identical text on every computer, with no proprietary-font dependency — and the preset browser shows **clean names** without leading numbering (e.g. `10211_` or `1.07 `). No presets are removed.
 
-> This release ships for **Windows** first; macOS and Linux follow.
+> Available now for **Windows**. macOS and Linux are in development and will come later.
 
 ---
 
@@ -182,9 +182,9 @@ A new **AUDIO QUALITY** switch on the GLOBAL page. **Eco** (the default) stays l
 
 </div>
 
-### 🖥️ Now on Windows, macOS and Linux
+### 🖥️ Windows now — macOS and Linux later
 
-MUUVIN V1 is built from **one codebase** for all three systems (64-bit), with a **universal macOS** build (Intel + Apple Silicon). Same interface, same sound, same presets everywhere — see **[Windows, macOS and Linux](#windows-macos-and-linux)** below.
+MUUVIN V1 is built from **one codebase** designed to run on Windows, macOS and Linux (64-bit). **Windows is available now**; the macOS and Linux builds are **in development** and will come later — see **[Platforms](#platforms)** below.
 
 ---
 
@@ -202,15 +202,15 @@ Download **MUUVIN V1 - Installer + Manuals.zip** from the latest release. It con
 
 The full manual (English and Portuguese) is also built into the plugin: **MENU › USER MANUAL**.
 
-### Windows, macOS and Linux
+<h3 id="platforms">Platforms</h3>
 
-MUUVIN V1 is built from **one codebase** that compiles natively for **Windows, macOS and Linux** — all 64-bit. The interface, the sound engine and the presets are the **same on every system**: the UI is drawn in software with its own built-in fonts, so it looks and resizes identically everywhere, and the factory presets are embedded in the plugin itself.
+MUUVIN V1 is built from **one codebase** designed for **Windows, macOS and Linux** (all 64-bit). The interface, the sound engine and the presets are meant to be the **same on every system**: the UI is drawn in software with its own built-in fonts, so it looks and resizes identically everywhere, and the factory presets are embedded in the plugin itself.
 
-- **Windows (64-bit)** — available now, above.
-- **macOS** — **universal** build (Intel + Apple Silicon), covering every 64-bit Mac.
-- **Linux (64-bit)** — VST3 for Linux hosts.
+- **Windows (64-bit)** — **available now**, above.
+- **macOS** — **in development**, coming later.
+- **Linux (64-bit)** — **in development**, coming later.
 
-> **The macOS and Linux builds are in final validation** and will be posted here as downloads shortly. Every build is checked automatically on its own system before release. *(The macOS build is unsigned for now, so on first load you may need to allow it under System Settings → Privacy & Security.)*
+> There is **no macOS or Linux download yet**. Those builds are still in development and will be posted here when they're ready.
 
 ---
 
@@ -371,7 +371,7 @@ The interface also scales from **75% to 110%**, with a 1:1 button to return to t
 
 | | |
 |---|---|
-| **Format** | VST3 · Windows, macOS (universal Intel + Apple Silicon) and Linux · 64-bit |
+| **Format** | VST3 · Windows (64-bit) available now · macOS and Linux in development |
 | **Developer** | MUUVIN SOFTWARE (Brazil) |
 | **Status** | Public beta (in testing — not the final version) |
 | **Polyphony** | Up to 16 voices · Poly, Mono, Legato · Unison |
